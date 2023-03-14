@@ -1,0 +1,6 @@
+2023-03-13 14:45:28 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into STUDENT(studentName,gender,standard[*]"; expected ",, )"; SQL statement:
+insert into STUDENT(studentName,gender,standard [42001-214]
+2023-03-13 14:48:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into STUDENT(studentName,gender,standard)[*]"; expected "OVERRIDING USER VALUE, OVERRIDING SYSTEM VALUE, DIRECT, SORTED, DEFAULT VALUES, VALUES, SET, WITH, (, SELECT, TABLE, VALUES"; SQL statement:
+insert into STUDENT(studentName,gender,standard) [42001-214]
